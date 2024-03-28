@@ -3,7 +3,7 @@
 
 When a user navigates to a "Website" tab  that directs to a specially designed webpage, it can result in the exposure of the NTLM hash through the activation of an Office URL scheme, thereby reducing the process to a single-click path for the leak.
 
-If one attempts to open a link in the format ms-word:ofv|u|file://Share/File.docx from a browser, the following steps are required:
+If one attempts to open a link in the format `ms-word:ofv|u|file://Share/File.docx` from a browser, the following steps are required:
 
 1- The user must confirm their intention to open Word.
 
